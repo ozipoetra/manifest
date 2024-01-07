@@ -26,6 +26,6 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="superior" revision="fourteen"/>
 
  <!-- SGCam -->
-  <project path="packages/apps/GCamPrebuilt" name="GCamPrebuilt" remote="magi" revision="main" />
+  <project path="packages/apps/GCamPrebuilt" name="gcam" remote="magi" revision="main" />
   
 </manifest>
