@@ -5,6 +5,7 @@
   <remote name="magi" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
   <remote name="nadin" fetch="https://github.com/Yourfurina" />
   <remote name="superior" fetch="https://github.com/SuperiorOS" />
+  <remote name="superiordev" fetch="https://github.com/SuperiorOS-Devices" />
   <remote name="soni" fetch="https://github.com/Projects-Corruption-Succubus" />
 
  <!-- Common Device Tree -->
@@ -17,7 +18,7 @@
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="nadin" revision="r2"/>
 
  <!-- vendor tree-->
-  <project path="vendor/xiaomi" name="vendor_xiaomi_mt6768-common" remote="superior" revision="fourteen"/>
+  <project path="vendor/xiaomi" name="vendor_xiaomi_mt6768-common" remote="superiordev" revision="fourteen"/>
 
  <!-- Mtk Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="soni" revision="lineage-20"/>
