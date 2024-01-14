@@ -7,6 +7,7 @@
   <remote name="superior" fetch="https://github.com/SuperiorOS" />
   <remote name="superiordev" fetch="https://github.com/SuperiorOS-Devices" />
   <remote name="soni" fetch="https://github.com/Projects-Corruption-Succubus" />
+  <remote name="mttk" fetch="https://github.com/xiaomi-mt6789-devs" />
 
  <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="chod" revision="13"/>
@@ -21,10 +22,10 @@
   <project path="vendor/xiaomi" name="vendor_xiaomi_mt6768-common" remote="superiordev" revision="fourteen"/>
 
  <!-- Mtk Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="soni" revision="lineage-20"/>
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="mttk" revision="lineage-20"/>
 
  <!-- Mtk sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="superior" revision="fourteen"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="mttk" revision="lineage-20"/>
 
  <!-- GCam -->
   <project path="packages/apps/GCamPrebuilt" name="gcam" remote="magi" revision="main" />
