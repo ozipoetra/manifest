@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="chod" fetch="https://github.com/ozipoetra" />
+  <remote name="chod" fetch="https://github.com/mitsu00" />
   <remote name="magi" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
   <remote name="nadin" fetch="https://github.com/Yourfurina" />
   <remote name="superior" fetch="https://github.com/SuperiorOS" />
@@ -9,10 +9,10 @@
   <remote name="soni" fetch="https://github.com/Projects-Corruption-Succubus" />
 
  <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="chod" revision="fourteen"/>
+  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="chod" revision="13"/>
      
  <!-- Device Tree -->
-  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="chod" revision="fourteen"/>
+  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="chod" revision="afterlife-13"/>
 
  <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="nadin" revision="r2"/>
@@ -26,7 +26,7 @@
  <!-- Mtk sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="superior" revision="fourteen"/>
 
- <!-- SGCam -->
-  <!-- <project path="packages/apps/GCamPrebuilt" name="gcam" remote="magi" revision="main" /> -->
+ <!-- GCam -->
+  <project path="packages/apps/GCamPrebuilt" name="gcam" remote="magi" revision="main" />
   
 </manifest>
