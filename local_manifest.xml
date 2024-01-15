@@ -19,7 +19,7 @@
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="nadin" revision="14.0"/>
 
  <!-- vendor tree-->
-  <project path="vendor/xiaomi" name="vendor_xiaomi_mt6768-common" remote="superiordev" revision="fourteen"/>
+  <project path="vendor/xiaomi" name="vendor_xiaomi_mt6768-common" remote="superiordev" revision="thirteen"/>
 
  <!-- Mtk Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="mttk" revision="lineage-20"/>
