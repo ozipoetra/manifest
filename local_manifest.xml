@@ -10,22 +10,22 @@
   <remote name="mttk" fetch="https://github.com/xiaomi-mt6789-devs" />
 
  <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="chod" revision="13"/>
+  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="chod" revision="14"/>
      
  <!-- Device Tree -->
-  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="chod" revision="afterlife-13"/>
+  <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="chod" revision="evox-14"/>
 
  <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="nadin" revision="14.0"/>
 
  <!-- vendor tree-->
-  <project path="vendor/xiaomi" name="vendor_xiaomi_mt6768-common" remote="superiordev" revision="thirteen"/>
+  <project path="vendor/xiaomi" name="vendor_xiaomi_mt6768-common" remote="superiordev" revision="fourteen"/>
 
  <!-- Mtk Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="mttk" revision="lineage-20"/>
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="mttk" revision="lineage-21"/>
 
  <!-- Mtk sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="mttk" revision="lineage-20"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="mttk" revision="lineage-21"/>
 
  <!-- GCam -->
   <project path="packages/apps/GCamPrebuilt" name="gcam" remote="magi" revision="main" />
