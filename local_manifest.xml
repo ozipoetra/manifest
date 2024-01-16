@@ -25,7 +25,7 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="mttk" revision="lineage-21"/>
 
  <!-- Mtk sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="mttk" revision="lineage-21"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="soni" revision="fourteen"/>
 
  <!-- GCam -->
   <project path="packages/apps/GCamPrebuilt" name="gcam" remote="magi" revision="main" />
