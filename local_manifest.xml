@@ -18,7 +18,7 @@
   <project path="kernel/xiaomi/mt6768" name="KAIC205-6867" remote="soni" revision="Liella!"/>
 
  <!-- vendor tree-->
-  <project path="vendor/xiaomi" name="vendor_xiaomi_mt6768-common" remote="superiordev" revision="fourteen"/>
+  <project path="vendor/xiaomi" name="vendor_xiaomi_mt6768-common" remote="chod" revision="fourteen"/>
 
  <!-- Mtk Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="soni" revision="lineage-20"/>
